@@ -1,8 +1,8 @@
 # This is probably all we need to appease the Travis gods, just for testing
-# for future reference, if we use javascript it would be:
-# language: node_js
 
-language: java
+language: node_js
+node_js:
+  - 0.12
 
 # Testing email notifications
 notifications:
