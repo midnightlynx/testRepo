@@ -1,4 +1,10 @@
-language: java
+# This is probably all we need to appease the Travis gods, just for testing
+
+language: node_js
+node_js:
+  - 0.12
+
+# Testing email notifications
 notifications:
   email:
   - mds6@pdx.edu
